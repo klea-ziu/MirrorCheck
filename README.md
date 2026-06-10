@@ -7,6 +7,14 @@
 - Paper page: https://www.norange.io/projects/mirrorcheck/
 - Video: https://www.youtube.com/watch?v=3OEuU5bfNZQ
 
+<p align="center">
+  <img src="docs/pipeline.png" alt="MirrorCheck pipeline overview" width="900">
+</p>
+
+<p align="center">
+  <a href="docs/pipeline.pdf">Pipeline figure PDF</a>
+</p>
+
 ## Core idea
 
 Given an input image `x_in`, a victim model produces text `t`. A text-to-image model generates `x_gen` from `t`. MirrorCheck compares the embeddings of `x_in` and `x_gen` using image encoders. Low similarity indicates a likely adversarial input.

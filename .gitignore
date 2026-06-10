@@ -12,3 +12,4 @@ __MACOSX/
 !examples/**/*.png
 !examples/**/*.jpg
 !examples/**/*.jpeg
+!docs/**/*.png
